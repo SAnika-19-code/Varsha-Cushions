@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varsha Cushions</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="card">
+
+    <img
+        src="{{ url_for('static', filename='logo.png') }}"
+        class="profile"
+    >
+
+    <h1>Varsha Cushions</h1>
+
+    <p class="subtitle">
+        Premium Car Interior Solutions
+    </p>
+
+    <div class="divider"></div>
+
+    <a class="btn"
+       href="https://wa.me/919766222351?text=Hi%20I%20am%20your%20new%20customer"
+       target="_blank"
+       rel="noopener noreferrer">
+
+        <img src="{{ url_for('static', filename='whatsapp.png') }}">
+
+        WhatsApp Me
+        
+    </a>
+
+    <a class="btn"
+       href="http://localhost:3000"
+       target="_blank"
+       rel="noopener noreferrer">
+
+        <img src="{{ url_for('static', filename='catalogue.png') }}">
+
+        View Catalogue
+    </a>
+
+
+    <a class="btn"
+       href="https://instagram.com/yourusername"
+       target="_blank"
+       rel="noopener noreferrer">
+
+        <img src="{{ url_for('static', filename='instagram.png') }}">
+
+        Instagram
+    </a>
+
+    <div class="divider"></div>
+
+    <div class="services">
+
+        <h3>Our Services</h3>
+
+        <div class="service-grid">
+
+            <div class="service-box">
+
+                <img src="{{ url_for('static', filename='seat.png') }}">
+
+                <p>Seat Covers</p>
+
+            </div>
+
+            <div class="service-box">
+
+                <img src="{{ url_for('static', filename='curtain.png') }}">
+
+                <p>Window Curtains</p>
+
+            </div>
+
+            <div class="service-box">
+
+                <img src="{{ url_for('static', filename='floor.png') }}">
+
+                <p>Floor Lamination</p>
+
+            </div>
+
+            <div class="service-box">
+
+                <img src="{{ url_for('static', filename='steering.png') }}">
+
+                <p>Steering Cover</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="address-section">
+
+
+        <img
+            src="{{ url_for('static', filename='location.png') }}"
+            class="address-icon"
+        >
+
+        <p class="address">
+
+            Akarnagri, Shop No. 4<br>
+            Shukravar Peth<br>
+            Near Koteshwar Chowk<br>
+            Satara
+
+        </p>
+    </div>
+
+    <p class="footer">
+
+        • Quality • Comfort • Style 
+
+    </p>
+
+</div>
+
+</body>
+
+</html>
