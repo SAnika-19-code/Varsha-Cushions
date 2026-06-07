@@ -307,10 +307,17 @@ h1 {
     max-width: 700px;
 }
 
-.contact-copy > p:last-child {
+.map-address {
+    display: inline-block;
     margin: 18px 0 0;
     color: var(--muted);
     line-height: 1.7;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.map-address:hover {
+    color: var(--gold);
 }
 
 .contact-actions {

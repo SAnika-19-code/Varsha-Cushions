@@ -5,7 +5,8 @@ A responsive homepage and digital business card for **Varsha Cushions**.
 The page is designed as the first step in the customer journey. When a
 customer scans the QR code on the Varsha Cushions business card, they arrive
 on this homepage and can continue to the car catalogue, contact the business
-on WhatsApp, or visit its Instagram profile.
+on WhatsApp, visit its Instagram profile, or open the store location in
+Google Maps.
 
 ## Customer Journey
 
@@ -19,6 +20,7 @@ Varsha Cushions Homepage
         +--> Open a Product Category
         +--> Contact on WhatsApp
         +--> Visit Instagram
+        +--> Open Store in Google Maps
 ```
 
 ## Live Catalogue
@@ -34,12 +36,21 @@ Each service card also links directly to its matching catalogue category:
 - Floor Lamination
 - Roof Design
 
+## Contact and Location
+
+- **Instagram:** https://www.instagram.com/varsha_cushion_satara
+- **WhatsApp:** https://wa.me/919766222351
+- **Google Maps:** https://maps.app.goo.gl/7yWCUqsGYJohUxJ96
+- **Address:** Akarnagri, Shop No. 4, Shukravar Peth, Near Koteshwar Chowk,
+  Satara
+
 ## Features
 
 - Catalogue-first layout for customers arriving through the QR code
 - Direct links to individual catalogue categories
 - WhatsApp integration with a pre-filled customer message
-- Instagram profile access
+- Direct access to the Varsha Cushions Instagram profile
+- Clickable store address linked to Google Maps
 - Store address and service information
 - Responsive desktop and mobile layouts
 - Accessible keyboard focus states
