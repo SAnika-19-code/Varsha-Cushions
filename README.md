@@ -1,89 +1,103 @@
-# Varsha Cushions – Digital Business Card Website
+# Varsha Cushions - QR Landing Page
 
-A premium digital business card and landing page built for **Varsha Cushions**, designed to provide customers with quick access to:
+A responsive homepage and digital business card for **Varsha Cushions**.
 
-* WhatsApp contact
-* Product catalogue
-* Instagram page
-* Services overview
+The page is designed as the first step in the customer journey. When a
+customer scans the QR code on the Varsha Cushions business card, they arrive
+on this homepage and can continue to the car catalogue, contact the business
+on WhatsApp, or visit its Instagram profile.
 
-The project combines a luxury automotive-inspired UI with responsive web design and QR integration for real-world business cards.
-
----
-
-## Features
-
-* Premium luxury UI inspired by automotive interiors
-* Responsive design for desktop and mobile devices
-* WhatsApp integration with pre-filled messages
-* Direct catalogue access
-* Service showcase section
-* Dynamic hover animations
-* QR-code-ready landing page
-
----
-
-## Tech Stack
-
-* HTML5
-* CSS3
-
----
-
-## Business Integration
-
-This website is designed to work alongside a physical QR-enabled business card.
-
-### QR Flow
+## Customer Journey
 
 ```text
 Business Card QR
-        ↓
-Landing Page
-        ↓
-WhatsApp / Catalogue / Contact
+        |
+        v
+Varsha Cushions Homepage
+        |
+        +--> Explore Car Catalogue
+        +--> Open a Product Category
+        +--> Contact on WhatsApp
+        +--> Visit Instagram
 ```
 
----
+## Live Catalogue
 
-## Services Displayed
+The homepage connects to the Varsha Cushions car catalogue:
 
-* Car Seat Covers
-* Window Curtains
-* Floor Lamination
-* Garage Covers
+**https://car-catalogue.vercel.app/**
 
----
+Each service card also links directly to its matching catalogue category:
 
-## Colour Palette
+- Car Seat Covers
+- Steering Covers
+- Floor Lamination
+- Roof Design
 
-| Color     | Hex       |
-| --------- | --------- |
-| Gold      | `#d0ab4f` |
-| White     | `#ffffff` |
-| Navy Blue | `#1d2a4b` |
+## Features
 
----
+- Catalogue-first layout for customers arriving through the QR code
+- Direct links to individual catalogue categories
+- WhatsApp integration with a pre-filled customer message
+- Instagram profile access
+- Store address and service information
+- Responsive desktop and mobile layouts
+- Accessible keyboard focus states
+- Reduced-motion support
+- Lightweight static website with no framework dependencies
 
-## Future Improvements
+## Design
 
-* Product gallery section
-* Customer enquiry form
-* WhatsApp chatbot automation
-* Google Maps integration
-* Dynamic admin dashboard
-* Customer reviews/testimonials
-* Online booking system
+The homepage uses the same visual language as the car catalogue to create one
+consistent brand experience:
 
----
+- Deep navy gradient background
+- Soft gold highlights
+- Bold automotive-style typography
+- Glass-effect service cards
+- Gold card borders and top accents
+- Compact square corners and subtle hover movement
+
+### Colour Palette
+
+| Colour | Hex |
+| --- | --- |
+| Luxury Gold | `#d0ab4f` |
+| Soft Gold | `#ead59a` |
+| White | `#ffffff` |
+| Royal Navy | `#1d2a4b` |
+| Deep Navy | `#10182f` |
+| Navy Ink | `#0b1020` |
+
+## Technology
+
+- HTML5
+- CSS3
+
+## Project Structure
+
+```text
+Varsha Cushions/
+|-- index.html
+|-- style.css
+|-- images/
+|   |-- logo.png
+|   |-- bg.jpeg
+|   |-- catalogue.png
+|   |-- whatsapp.png
+|   |-- instagram.png
+|   |-- seat.png
+|   |-- steering.png
+|   |-- floor.png
+|   `-- Roof design.png
+`-- README.md
+```
+
+## Local Preview
+
+Open `index.html` in a web browser. The project does not require installation,
+a build command, or a local server.
 
 ## Author
 
-Developed by Sanika
-
----
-
-## Screenshot
-<p align='center'>
-  <img width="1904" height="919" alt="Screenshot 2026-05-27 161316" src="https://github.com/user-attachments/assets/c1f8dc7e-7d1d-45fc-8029-6e824aba09c3" />
-</p>
+Developed by Sanika.
