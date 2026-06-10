@@ -32,9 +32,9 @@ The homepage connects to the Varsha Cushions car catalogue:
 Each service card also links directly to its matching catalogue category:
 
 - Car Seat Covers
+- Roof Design
 - Steering Covers
 - Floor Lamination
-- Roof Design
 
 ## Contact and Location
 
